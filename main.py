@@ -28,11 +28,11 @@ async def tarjima(message: Message):
         await message.answer("Iltimos raqam yozing")
 
 
-async def boshla():
+async def main():
     print("bot ishda")
     bot = Bot(TOKEN)
     await db.start_polling(bot)
 
-asyncio.run(boshla())
+asyncio.run(main())
 
 
