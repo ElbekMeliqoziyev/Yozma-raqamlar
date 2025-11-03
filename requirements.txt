@@ -2,4 +2,3 @@ aiogram==3.2.0
 deep-translator==1.11.4
 num2words==0.5.13
 python-dotenv==1.0.1
-
